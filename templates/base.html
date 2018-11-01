@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>New Post</title>
+        <style type="text/css">
+            .error {
+                color : red;
+                font-style : italic;
+            }
+        </style>
+    </head>
+    <body>
+        <h4>
+            <span><a href="/blog">Main Blog Post</a></span> <span style="color : white"> --- </span><span><a href="/newpost">Add a Blog Entry</a></span>
+        </h4>
+        {% block content %}
+        {% endblock %}
+    </body>
+</html>
